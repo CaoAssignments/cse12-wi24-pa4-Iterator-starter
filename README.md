@@ -413,7 +413,7 @@ The `MyListIterator` is able to traverse the list by moving a space at a time in
 
   <tr>
       <td>
-      <code>public void distanceToElement(E element)</code>
+      <code>public int distanceToElement(E element)</code>
       </td>
       <td>
       Return the minimum number of calls to <code>next</code> required to get <code>element</code> as the return value. Return -1 if the element does not exist after the iterator's current position. This method should not have any side effects on the iterator or underlying linked list.

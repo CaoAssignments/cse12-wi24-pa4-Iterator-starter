@@ -340,7 +340,7 @@ public class MyListIteratorPublicTester {
      * Test distanceToElement() on valid element
      */
     @Test
-    void testDistanceToElement() {
+    public void testDistanceToElement() {
         assertEquals("called when distance 1", 1, listLen2Iter.distanceToElement("Paul"));
         assertEquals("called when distance 2", 2, listLen2Iter.distanceToElement("Cao"));
         // equivalent to listLen2Iter.next();

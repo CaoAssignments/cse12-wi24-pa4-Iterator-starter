@@ -347,7 +347,7 @@ public class MyListIteratorPublicTester {
         listLen2Iter.left = listLen2.head.getNext();
         listLen2Iter.right = listLen2.head.getNext().getNext();
         listLen2Iter.idx = 1;
-        listLen2Iter.forward = false;
+        listLen2Iter.forward = true;
         listLen2Iter.canRemoveOrSet = true;
         assertEquals("called when distance 1", 1, listLen2Iter.distanceToElement("Cao"));
     }
